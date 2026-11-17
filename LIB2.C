@@ -42,7 +42,7 @@ switch(c)
       printf("2.GOD OF WAR\n");
       printf("3.RICH DAD\n");
       printf("======ADD NEW BOOK======\n");
-      printf("\nENTER THE BOOK NAME:");scanf("%c",&nb);
+      printf("\nENTER THE BOOK NAME:");scanf("%19S",nb);
       printf("ENTER THE BOOK ID:");scanf("%d",&id);
       printf("ENTER THE AUTHOR NAME:");scanf("%s",&an);
       printf("ENTER THE CATEGORY:");scanf("%s",&ca);
@@ -57,7 +57,7 @@ switch(c)
      printf("1.WINGS OF FIRE\n");
      printf("2.GOD OF WAR\n");
      printf("3.RICH DAD\n");
-     printf("4.","%s",nb);
+     printf("4."%19s",nb);
      printf("\nCLICK 1 TO BACK TO MENU!!!!!\n");
      scanf("%d",&e);
      break;

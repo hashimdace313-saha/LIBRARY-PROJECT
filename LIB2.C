@@ -57,7 +57,8 @@ switch(c)
      printf("1.WINGS OF FIRE\n");
      printf("2.GOD OF WAR\n");
      printf("3.RICH DAD\n");
-     printf("4."%19s",nb);
+     printf("4.%s\n",nb);
+     printf("5.%s\n",nb2);
      printf("\nCLICK 1 TO BACK TO MENU!!!!!\n");
      scanf("%d",&e);
      break;
@@ -108,16 +109,16 @@ switch(c)
 
     case 7:
      printf("\n=======UPTADING SECTION=======\n");
-     printf("ENTER THE NAME TO CHANGE:");scanf("%d",nb2);
-     printf("\nENTER THE ID TO CHANGE:");scanf("%d",id2);
-     printf("\nENTER THE PRICE:");scanf("%d",p2);
+     printf("ENTER THE NAME TO CHANGE:");scanf("%s",nb2);
+     printf("\nENTER THE ID TO CHANGE:");scanf("%d",&id2);
+     printf("\nENTER THE PRICE:");scanf("%d",&p2);
      printf("ENTER 1 TO SEE THE PREVIEW");
      scanf("%d",z);
      if(z==1)
       printf("==========PREVIEW==========");
-      printf("NEW BOOK NAME:","%s",nb2);
-      printf("ID NO:","%d",id2);
-      printf("PRICE:","%d",p2);
+      printf("NEW BOOK NAME:%s",nb2);
+      printf("ID NO:%d",id2);
+      printf("PRICE:%d",p2);
       printf("\nCLICK 1 TO BACK TO MENU!!!!!\n");
       scanf("%d",&e);
      break;
